@@ -1,1 +1,54 @@
 /*  your css code here. If applicable */
+body {
+    background-color: rgb(238, 238, 231);
+}
+
+#logo {
+    color: rgb(26, 119, 242);
+    font-weight: 900;
+    font-size: 70px;
+}
+
+#slogan {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    width: 80%;
+    gap: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 60%;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    box-shadow: .5px .5px 2px .5px black;
+}
+
+#forget {
+    text-align: center;
+    color: rgb(26, 119, 242);
+}
+
+#btn {
+    background-color: rgb(26, 119, 242);
+    color: #fff;
+    border: none;
+    width: 72%;
+    border-radius: 3px;
+    height: 1.4rem;
+}
+
+button {
+    background-color: rgb(67, 183, 42);
+    border: none;
+    color: #fff;
+    height: 1.4rem;
+    border-radius: 3px;
+}
